@@ -1,8 +1,8 @@
-#Classic arcade-game
+#frogger-js
 
 ##Description :
 This is the third project of the Udacity Front-End Web Development Nanodegree.
-It is the classic arcade game, Frogger with a twist.
+It is my version of the classic arcade game, Frogger.
 
 ##How to play :
 To play this game run the index.html file on your browser.
