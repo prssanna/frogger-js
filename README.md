@@ -2,7 +2,7 @@
 
 ##Description :
 This is the third project of the Udacity Front-End Web Development Nanodegree.
-It is the classic arcade game, Froggo with a twist.
+It is the classic arcade game, Frogger with a twist.
 
 ##How to play :
 To play this game run the index.html file on your browser.
