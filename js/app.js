@@ -53,16 +53,18 @@ Enemy.prototype.render = function() {
 // This class requires an update(), render() and
 // a handleInput() method.
 var Player = function() {
-    this.sprite='images/char-cat-girl.png';
+    this.sprite = 'images/char-cat-girl.png';
     this.x = 200;
     this.y = 380;
-    this.score=0;
-
+    this.score = 0;
+    this.highScore = 0;
 };
 
 Player.prototype.update = function(dt) {
     if(this.y==-10) {
         this.score+=1;
+        if(this.score > this.highScore) this.highScore = this.score;
+        document.getElementById("highscore").innerHTML = this.highScore;
         document.getElementById("score").innerHTML = this.score;
 
         this.reset()

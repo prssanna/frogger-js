@@ -1,3 +1,7 @@
 body {
     text-align: center;
 }
+
+#scoreboard {
+    font-size:1.5em;
+}
